@@ -1,7 +1,7 @@
 # [roblox-state-notify-bot]([https://www.github.com/Qarchue/roblox-state-notify-bot](https://github.com/Qarchue/roblox-state-notify-bot))
 
 
-[![GitHub](https://img.shields.io/github/license/Qarchue/roblox-state-notify-bot)](https://github.com/Qarchue/roblox-state-notify-bot/blob/master/LICENSE) 
+[![GitHub](https://img.shields.io/github/license/qarchue/roblox-state-notify-bot)](https://github.com/Qarchue/roblox-state-notify-bot/blob/master/LICENSE) 
 [![GitHub repo size](https://img.shields.io/github/repo-size/Qarchue/roblox-state-notify-bot)](https://github.com/Qarchue/roblox-state-notify-bot) 
 [![GitHub top language](https://img.shields.io/github/languages/top/Qarchue/roblox-state-notify-bot)](https://github.com/Qarchue/roblox-state-notify-bot)
 [![GitHub Repo stars](https://img.shields.io/github/stars/Qarchue/roblox-state-notify-bot?style=social)](https://github.com/Qarchue/roblox-state-notify-bot/stargazers) 
