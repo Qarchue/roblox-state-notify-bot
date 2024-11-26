@@ -8,7 +8,9 @@
     <a href="https://discord.gg/w5CeZh3rNu"><img src="https://img.shields.io/discord/905865794683015208?style=flat-square&logo=Discord&logoColor=white&label=support&color=5865F2"></a>
 </p>
 
-歡迎將本專案所有或部分程式碼放入你自己的機器人中。
+[English](https://github.com/Qarchue/roblox-state-notify-bot/blob/main/README.mda) | **中文**
+
+> 歡迎將本專案所有或部分程式碼放入你自己的機器人中。
 
 有些玩家上線時不會通知朋友，導致常常錯過一起遊玩的機會。為了解決這個問題，我使用 **Python 3** 開發了一個工具來監視他們的狀態變化，並即時發送通知。
 
