@@ -5,8 +5,9 @@
 [![GitHub top language](https://img.shields.io/github/languages/top/Qarchue/roblox-state-notify-bot)](https://github.com/Qarchue/roblox-state-notify-bot)
 [![GitHub Repo stars](https://img.shields.io/github/stars/Qarchue/roblox-state-notify-bot?style=social)](https://github.com/Qarchue/roblox-state-notify-bot/stargazers) 
 [![Discord Server](https://img.shields.io/discord/1283297397916831816)](https://discord.gg/tSJtEU4bmc)
+![Discord](https://img.shields.io/discord/1283297397916831816)
 
-https://discord.gg/w5CeZh3rNu
+
 
 有些玩家上線時不會通知朋友，導致常常錯過一起遊玩的機會。為了解決這個問題，我使用 **Python 3** 開發了一個工具來監視他們的狀態變化，並即時發送通知。
 
