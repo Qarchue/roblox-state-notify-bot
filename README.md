@@ -5,7 +5,7 @@
     <a href="https://github.com/Qarchue/roblox-state-notify-bot"><img src="https://img.shields.io/github/repo-size/Qarchue/roblox-state-notify-bot"></a>
     <a href="https://github.com/Qarchue/roblox-state-notify-bot"><img src="https://img.shields.io/github/languages/top/Qarchue/roblox-state-notify-bot"></a>
     <a href="https://github.com/Qarchue/roblox-state-notify-bot/stargazers"><img src="https://img.shields.io/github/stars/Qarchue/roblox-state-notify-bot?style=socia"></a>
-    <a href="https://discord.gg/w5CeZh3rNu"><img src="https://img.shields.io/discord/905865794683015208"></a>
+    <a href="https://discord.gg/w5CeZh3rNu"><img src="https://img.shields.io/discord/905865794683015208?style=flat-square&logo=Discord&logoColor=white&label=support&color=5865F2"></a>
 </p>
 
 歡迎將本專案所有或部分程式碼放入你自己的機器人中。
