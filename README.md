@@ -1,13 +1,14 @@
 # [roblox-state-notify-bot]([https://www.github.com/Qarchue/roblox-state-notify-bot](https://github.com/Qarchue/roblox-state-notify-bot))
 
+<p align="center">
+    <a href="https://github.com/Qarchue/roblox-state-notify-bot/blob/master/LICENSE"><img src="https://img.shields.io/github/license/qarchue/roblox-state-notify-bot"></a>
+    <a href="https://github.com/Qarchue/roblox-state-notify-bot"><img src="https://img.shields.io/github/repo-size/Qarchue/roblox-state-notify-bot"></a>
+    <a href="https://github.com/Qarchue/roblox-state-notify-bot"><img src="https://img.shields.io/github/languages/top/Qarchue/roblox-state-notify-bot"></a>
+    <a href="https://img.shields.io/github/stars/Qarchue/roblox-state-notify-bot?style=socia"><img src="https://github.com/Qarchue/roblox-state-notify-bot/stargazers"></a>
+    <a href="https://img.shields.io/discord/905865794683015208"><img src="https://discord.gg/w5CeZh3rNu"></a>
+</p>
 
-[![GitHub](https://img.shields.io/github/license/qarchue/roblox-state-notify-bot)](https://github.com/Qarchue/roblox-state-notify-bot/blob/master/LICENSE) 
-[![GitHub repo size](https://img.shields.io/github/repo-size/Qarchue/roblox-state-notify-bot)](https://github.com/Qarchue/roblox-state-notify-bot) 
-[![GitHub top language](https://img.shields.io/github/languages/top/Qarchue/roblox-state-notify-bot)](https://github.com/Qarchue/roblox-state-notify-bot)
-[![GitHub Repo stars](https://img.shields.io/github/stars/Qarchue/roblox-state-notify-bot?style=social)](https://github.com/Qarchue/roblox-state-notify-bot/stargazers) 
-[![Discord Server](https://img.shields.io/discord/905865794683015208)](https://discord.gg/w5CeZh3rNu)
-
-
+歡迎將本專案所有或部分程式碼放入你自己的機器人中。
 
 有些玩家上線時不會通知朋友，導致常常錯過一起遊玩的機會。為了解決這個問題，我使用 **Python 3** 開發了一個工具來監視他們的狀態變化，並即時發送通知。
 
@@ -16,6 +17,8 @@
 該機器人還支援多語言設置，用戶可以根據自己的需求選擇不同的語言接收通知，只需更改或新增 `language` 資料夾內的 JSON 檔案即可自訂語言內容。
 
 _本文檔將引導您完成創建 Discord 機器人及使用其功能。_
+
+
 ###### 使用chatGPT輔助撰寫
 
 ---
@@ -123,11 +126,13 @@ python bot.py
 ## 貢獻
 
 本專案的靈感與部分程式片段來自於 https://github.com/jackssrt/robloxnotif/blob/master/README.md?plain=1
+
 由 Qarchue 偷偷在上課時間撰寫完成
 
 ---
 
 ## 授權
 
-歡迎將本專案所有或部分程式碼放入你自己的機器人中。
+此專案採用 MIT 授權，詳情請參閱 LICENSE 檔案。
+
 
