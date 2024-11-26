@@ -39,6 +39,59 @@ _本文檔將引導您完成創建 Discord 機器人及使用其功能。_
 ```json
 {
     "TOKEN": "你的 Discord Bot Token",
-    "Default_language": "zh-TW"
+    "Default_language": "zh-tw"
 }
+```
+- `TOKEN`：填入您在 Discord 開發者平台取得的 Bot Token。
+- `Default_language`：填入您希望的預設語言檔名稱（如 zh-TW）。
+
+---
+
+## 安裝依賴
+
+確保已安裝 Python 3.8 或更新版本，然後執行以下命令來安裝依賴：
+
+```sh
+pip install -r requirements.txt
+```
+
+`requirements.txt` 檔案中包含了運行此機器人所需的所有 Python 套件。
+
+---
+
+## 啟動機器人
+
+執行以下指令來啟動機器人：
+
+```sh
+python bot.py
+```
+
+---
+
+## 注意事項
+
+### 1. Roblox Cookie
+提供有效的 `.ROBLOSECURITY` Cookie 可啟用進階功能，例如查詢好友是否加入或離開遊戲。如果 Cookie 無效，機器人會發出錯誤通知。
+
+### 2. Discord 權限
+確保機器人擁有以下基本權限：
+- 發送訊息
+- 嵌入訊息
+- 使用應用程式指令
+
+### 3. 語言設定
+預設語言為 `zh-TW`，您可以新增或修改 `language` 資料夾中的檔案，並透過 `/setting` 指令更改語言。
+
+---
+
+## 貢獻
+
+歡迎提交問題（Issue）或拉取請求（Pull Request）以改進此專案。您的貢獻能幫助我們使此機器人更加完善！
+
+---
+
+## 授權
+
+此專案採用 MIT 授權，詳情請參閱 `LICENSE` 檔案。
 
