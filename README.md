@@ -8,7 +8,9 @@
     <a href="https://discord.gg/w5CeZh3rNu"><img src="https://img.shields.io/discord/905865794683015208?style=flat-square&logo=Discord&logoColor=white&label=support&color=5865F2"></a>
 </p>
 
-Feel free to use any or all of the code in your own bot.
+**English** | [中文](https://github.com/Qarchue/roblox-state-notify-bot/blob/main/README_tw.md)
+
+> Feel free to use any or all of the code in your own bot.
 
 Some players do not notify their friends when they come online, leading to missed opportunities to play together. To solve this problem, I developed a tool using **Python 3** to monitor their status changes and send real-time notifications.
 
