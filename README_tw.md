@@ -8,7 +8,7 @@
     <a href="https://discord.gg/w5CeZh3rNu"><img src="https://img.shields.io/discord/905865794683015208?style=flat-square&logo=Discord&logoColor=white&label=support&color=5865F2"></a>
 </p>
 
-[English](https://github.com/Qarchue/roblox-state-notify-bot/blob/main/README.mda) | **中文**
+[English](https://github.com/Qarchue/roblox-state-notify-bot/blob/main/README.md) | **中文**
 
 > 歡迎將本專案所有或部分程式碼放入你自己的機器人中。
 
