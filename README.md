@@ -60,11 +60,11 @@ Currently, the `language` folder contains the following three default language f
 
 | **Language Code** | **Language Name**    |
 |-------------------|----------------------|
-| `zh-TW`           | Traditional Chinese  |
-| `en-US`           | English              |
+| `zh-tw`           | Traditional Chinese  |
+| `en-us`           | English              |
 | `lzh`             | Classical Chinese    |
 
-The default language is set to `zh-TW`. If a user does not customize their language, this default language will be used.
+The default language is set to `zh-tw`. If a user does not customize their language, this default language will be used.
 
 ---
 
@@ -79,7 +79,7 @@ Example content:
 ```json
 {
     "TOKEN": "Your Discord Bot Token",
-    "Default_language": "zh-TW"
+    "Default_language": "zh-tw"
 }
 ```
 - `TOKEN`: Enter the Bot Token you obtained from the Discord Developer Platform.
