@@ -83,7 +83,7 @@ _本文檔將引導您完成創建 Discord 機器人及使用其功能。_
 }
 ```
 - `TOKEN`：填入您在 Discord 開發者平台取得的 Bot Token。
-- `Default_language`：填入您希望的預設語言檔名稱（如 zh-TW）。
+- `Default_language`：填入您希望的預設語言檔名稱（如 zh-tw）。
 
 ---
 
