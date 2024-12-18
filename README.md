@@ -83,7 +83,7 @@ Example content:
 }
 ```
 - `TOKEN`: Enter the Bot Token you obtained from the Discord Developer Platform.
-- `Default_language`: Enter the name of the default language file you want (e.g., zh-TW).
+- `Default_language`: Enter the name of the default language file you want (e.g., zh-tw).
 
 ---
 
