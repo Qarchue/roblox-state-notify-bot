@@ -1,1 +1,0 @@
-requests numpy discord.py
