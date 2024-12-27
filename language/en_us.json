@@ -1,0 +1,76 @@
+{
+    "english": {
+        "title": "Roblox Player Status Detection Bot",
+        "data_update": "Data has been updated",
+        "presence_change": "User status change detected",
+        "discord": {
+            "sub": {
+                "1": "---------------Commands---------------",
+                "description": "Subscribe to someone's Roblox status",
+                "user": "Enter username",
+                "cookies": "Enter cookies",
+                "2": "---------------Messages---------------",
+                "profile": "Profile",
+                "user_send": "Private message sent to you.",
+                "sub_add": "User added successfully",
+                "sub_remove": "User removed successfully",
+                "sub_finish": "Changes saved.",
+                "3": "---------------List---------------",
+                "start": ["Start execution", "Processing..."],
+                "cookie_update": ["Cookie added successfully", "Cookie updated successfully"],
+                "sub_success": ["Completed: ", "Currently not tracking any players.", "Tracking status of %s players."]
+            },
+            "settings": {
+                "1": "---------------Commands---------------",
+                "description": "Change settings",
+                "language": "Enter language",
+                "cookies": "Enter cookies",
+                "2": "---------------Messages---------------",
+                "user_send": "Private message sent to you.",
+                "lang_update": "Language updated successfully.",
+                "set_finish": "Settings updated.",
+                "3": "---------------List---------------",
+                "start": ["Start execution", "Modifying settings"],
+                "cookie_update": ["Cookie added successfully", "Cookie updated successfully"],
+                "settings": ["settings", "language", "cookie"]
+            },
+            "sublist": {
+                "1": "---------------Commands---------------",
+                "description": "Display subscribed user list",
+                "2": "---------------Messages---------------",
+                "profile": "Profile",
+                "user_send": "Private message sent to you.",
+                "3": "---------------List---------------",
+                "start": ["Start execution", "User subscription list"],
+                "cookie_update": ["Cookie added successfully", "Cookie updated successfully"],
+                "nosub": ["Empty here", "You are not subscribed to any players."]
+            },
+            "notify": {
+                "gameinfo": "Game information",
+                "gamename": "Game name",
+                "profile": "Profile"
+            }
+        },
+        "error": {
+            "1": "---------------Commands---------------",
+            "Invalid_cookie": "Invalid cookie!",
+            "language_repeat": "Language name already exists!",
+            "playernotfound": "Player not found",
+            "playerisyourself": "User %s is yourself",
+            "Invalid_cookie2": "Cookie expired. Please use the /settings command to update.",
+            "user_send_error": "Unable to send you a private message. Make sure your privacy settings allow receiving messages from server members.",
+            "2": "---------------cmd---------------",
+            "error_exit": "Press any key to exit...",
+            "3": "---------------List---------------",
+            "error_len": [" error(s)", "Please correct these errors."]
+        },
+        "presence": {
+            "Going_offline": "Went offline",
+            "Coming_online": "Came online",
+            "Entering_the_game": "Entered game",
+            "Entering_studio": "Entered studio",
+            "Exiting_game": "Exited game",
+            "Exiting_studio": "Exited studio"
+        }
+    }
+}
