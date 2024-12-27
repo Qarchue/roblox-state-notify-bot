@@ -81,28 +81,27 @@ _本文檔將引導您完成創建 Discord 機器人及使用其功能。_
 
 1. 到 [Discord Developer](https://discord.com/developers/applications "Discord Developer") 登入 Discord 帳號
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/discord_1.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/discord_1.png)
 
 2. 點選「New Application」建立應用，輸入想要的名稱後按「Create」
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/discord_2.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/discord_2.png)
 
 3. 在 Bot 頁面，按「Reset Token」來取得機器人的 Token
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/discord_3.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/discord_3.png)
 
 4. 第3步驟做完之後在下面將「Presence Intent」「Server Members Intent」「Message Content Intent」的開關打開
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/discord_4.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/discord_4.png)
 
 5. 在 OAuth2/URL Generator，分別勾選「bot」「applications.commands」「Send Messages」
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/discord_5.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/discord_5.png)
 
 6. 開啟最底下產生的 URL 將機器人邀請至自己的伺服器
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/discord_6.png)
-
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/discord_6.png)
 </details>
 
 ### 電腦端
@@ -292,19 +291,19 @@ _本文檔將引導您完成創建 Discord 機器人及使用其功能。_
 
 2. 按下鍵盤上的 「F12」 進入檢查
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/cookie_1.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/cookie_1.png)
 
 3. 在上方選擇 「Application」 (開發者選項)
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/cookie_2.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/cookie_2.png)
 
 4. 在左邊找到 「Cookies」 點開，並點下面的網址
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/cookie_3.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/cookie_3.png)
 
 5. 在中間找到 「Name」 為 .ROB 開頭的，並複製其 「Value」 中的值(_/|WARING...)，這就是你帳號的 `cookies`
 
-![](https://github.com/Qarchue/roblox-state-notify-bot/images/cookie_4.png)
+![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/refs/heads/main/images/cookie_4.png)
 
 </details>
 
