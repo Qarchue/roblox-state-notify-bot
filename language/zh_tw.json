@@ -1,0 +1,76 @@
+{   
+    "繁體中文": {
+        "title": "roblox玩家狀態檢測機器人",
+        "data_update": "資料已更新",
+        "presence_change": "檢測到用戶狀態改變",
+        "discord": {
+            "sub": {
+                "1": "---------------指令---------------",
+                "description": "訂閱某人的roblox狀態",
+                "user": "輸入使用者名稱",
+                "cookies": "輸入cookies",
+                "2": "---------------訊息---------------",
+                "profile": "個人檔案",
+                "user_send": "已向您發送私訊。",
+                "sub_add": "成功新增使用者",
+                "sub_remove": "成功刪除使用者",
+                "sub_finish": "更改完成。",
+                "3": "---------------list---------------",
+                "start": ["開始執行", "正在進行操作"],
+                "cookie_update": ["cookie新增成功", "cookie更新成功"],
+                "sub_success": ["已完成，", "目前無追蹤任何玩家。", "正在追蹤%s個人的狀態。"]
+            },
+            "settings": {
+                "1": "---------------指令---------------",
+                "description": "更改設定",
+                "language": "輸入要更改成的語言",
+                "cookies": "輸入cookies",
+                "2": "---------------訊息---------------",
+                "user_send": "已向您發送私訊。",
+                "lang_update": "語言更改成功。",
+                "set_finish": "設定完成。",
+                "3": "---------------list---------------",
+                "start": ["開始執行", "正在修改設定"],
+                "cookie_update": ["cookie新增成功。", "cookie更新成功。"],
+                "settings": ["設定檔", "語言", "cookie"]
+            },
+            "sublist": {
+                "1": "---------------指令---------------",
+                "description": "顯示訂閱用戶列表",
+                "2": "---------------訊息---------------",
+                "profile": "個人檔案",
+                "user_send": "已向您發送私訊。",
+                "3": "---------------list---------------",
+                "start": ["開始執行", "訂閱使用者名單"],
+                "cookie_update": ["cookie新增成功", "cookie更新成功"],
+                "nosub": ["這裡空空如也", "你沒訂閱玩家"]
+            },
+            "notify": {
+                "gameinfo": "遊戲資訊",
+                "gamename": "遊戲名稱",
+                "profile": "個人檔案"
+            }
+        },
+        "error": {
+            "1": "---------------指令---------------",
+            "Invalid_cookie": "cookie錯誤!",
+            "language_repeat": "語言名稱重複!",
+            "playernotfound": "無法找到使用者",
+            "playerisyourself": "使用者 %s 是你自己",
+            "Invalid_cookie2": "cookie過期，請使用/settings指令更新",
+            "user_send_error": "無法向您發送私訊。請確保您的私訊設置允許接收來自服務器成員的消息。",
+            "2": "---------------cmd---------------",
+            "error_exit": "按下任意按鍵離開...",
+            "3": "---------------list---------------",
+            "error_len": ["則錯誤", "請修正這些錯誤"]
+        },
+        "presence": {
+            "Going_offline": "下線了",
+            "Coming_online": "上線了",
+            "Entering_the_game": "進入了遊戲",
+            "Entering_studio": "進入了studio",
+            "Exiting_game": "離開了遊戲",
+            "Exiting_studio": "離開了stuio"
+        }
+    }
+}
