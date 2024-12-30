@@ -289,19 +289,19 @@ _本文檔將引導您完成創建 Discord 機器人及使用其功能。_
 
 2. 按下鍵盤上的 「F12」 進入檢查
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/cookies_1.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/get_cookies/cookies_1.png)
 
 3. 在上方選擇 「Application」 (開發者選項)
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/cookies_2.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/get_cookies/cookies_2.png)
 
 4. 在左邊找到 「Cookies」 點開，並點下面的網址
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/cookies_3.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/get_cookies/cookies_3.png)
 
 5. 在中間找到 「Name」 為 .ROB 開頭的，並複製其 「Value」 中的值(_/|WARING...)，這就是你帳號的 `cookies`
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/cookies_4.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/get_cookies/cookies_4.png)
 
 </details>
 
