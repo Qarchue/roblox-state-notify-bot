@@ -350,5 +350,3 @@ roblox-state-notify-bot/
 ## 授權
 
 此專案採用 MIT 授權，詳情請參閱 LICENSE 檔案。
-
----
