@@ -78,27 +78,27 @@ _本文檔將引導您完成創建 Discord 機器人及使用其功能。_
 
 1. 到 [Discord Developer](https://discord.com/developers/applications "Discord Developer") 登入 Discord 帳號
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/discord_1.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/discord_bot/discord_1.png)
 
 2. 點選「New Application」建立應用，輸入想要的名稱後按「Create」
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/discord_2.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/discord_bot/discord_2.png)
 
 3. 在 Bot 頁面，按「Reset Token」來取得機器人的 Token
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/discord_3.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/discord_bot/discord_3.png)
 
 4. 第3步驟做完之後在下面將「Presence Intent」「Server Members Intent」「Message Content Intent」的開關打開
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/discord_4.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/discord_bot/discord_4.png)
 
 5. 在 OAuth2/URL Generator，分別勾選「bot」「applications.commands」「Send Messages」
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/discord_5.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/discord_bot/discord_5.png)
 
 6. 開啟最底下產生的 URL 將機器人邀請至自己的伺服器
 
-![](https://raw.githubusercontent.com/Qarchue/roblox-state-notify-bot/master/images/discord_6.png)
+![](https://raw.githubusercontent.com/Qarchue/images/master/discord_bot/discord_6.png)
 
 </details>
 
