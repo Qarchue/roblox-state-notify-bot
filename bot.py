@@ -12,8 +12,10 @@ from typing import Optional
 from discord import app_commands
 from discord.ext import commands
 from discord.app_commands import Choice
+import aiohttp
 
-
+update_data = False
+update_data_lock = asyncio.Lock()
 
 # 取得目前腳本的絕對路徑
 current_script_path = os.path.abspath(__file__)
@@ -112,10 +114,10 @@ async def on_ready():
     slash = await bot.tree.sync()
     print(f"Current login identity --> {bot.user}")
     print(f"load {len(slash)} commands")
-    bot.loop.create_task(main())
+    asyncio.create_task(main())  # 讓 main() 成為背景任務
+    # bot.loop.create_task(main())
 
-
-
+    
 class RobloxAPI:
 
     def get_user_id(name):
@@ -642,20 +644,39 @@ async def sub(interaction: discord.Interaction, user: str, cookies: Optional[str
 
     update_data = True
 
+async def set_update_data(value):
+    async with update_data_lock:
+        global update_data
+        update_data = value
+
+async def fetch_roblox_presence(ids, cookie):
+    """ 使用 aiohttp 發送請求，避免同步阻塞 """
+    async with aiohttp.ClientSession() as session:
+        try:
+            async with session.post(
+                "https://presence.roblox.com/v1/presence/users",
+                json={"userIds": ids},
+                cookies={".ROBLOSECURITY": cookie} if cookie else {}
+            ) as resp:
+                return await resp.json()
+        except aiohttp.ClientError as e:
+            print(f"請求錯誤: {e}")
+            return None
 
 async def main():
     global update_data
-    await bot.wait_until_ready()  #確保機器人已準備就緒
-
+    await bot.wait_until_ready()  # 確保機器人已準備就緒
     while True:
+
+        await asyncio.sleep(5)  # 避免無窮迴圈卡死 CPU
+
         column = 0
         if update_data:
             x = await rp()
-            last_data = [[] for i in range(len(x))]
+            last_data = [[] for _ in range(len(x))]
             requests_data = x.copy()
             print(Default_language['data_update'])
-            update_data = False
-            #print(requests_data)
+            await set_update_data(False)  # 用 set_update_data 來修改變數
         
         for i in requests_data:
             await asyncio.sleep(5)
@@ -664,53 +685,32 @@ async def main():
             cookie = i[1]
             robloxid = i[2]
             dcid = i[3]
-            try:
-                _data = requests.post(
-                    "https://presence.roblox.com/v1/presence/users",
-                    json={"userIds":ids},
-                    cookies={".ROBLOSECURITY": cookie}
-                    if cookie else {},
-                ).json()  
-            except:
-                if RobloxAPI.authenticate_cookie(cookie) == "":
+            _data = await fetch_roblox_presence(ids, cookie)
 
-                    await discord_error(dcid, "cookie")
-                #print(1)    
-                update_data = True
+            if _data is None:
+                await set_update_data(True)
                 await asyncio.sleep(10)
                 break
 
-            else:
-                try:
-                    #print(_data)
-                    f_data = [{
-                        "userid":item['userId'],
-                        "userPresenceType":item['userPresenceType'],
-                        "universeId":item['universeId']
-                        }for item in _data['userPresences']
-                    ]
-                    
-                except:
-                    #print("f_data  error")
-                    #print(f_data)
-                    #print(_data)
-                    #print(2)
-                    update_data = True
-                    await asyncio.sleep(10)
-                    break
+            try:
+                f_data = [{
+                    "userid": item['userId'],
+                    "userPresenceType": item['userPresenceType'],
+                    "universeId": item['universeId']
+                } for item in _data['userPresences']]
+            except KeyError as e:
+                print(f"解析資料時出錯: {e}")
+                await set_update_data(True)
+                await asyncio.sleep(10)
+                break
 
-                try:
-                    for a in range(len(f_data)):
-                        if len(last_data[column]) != 0:
-                            if f_data[a]['userPresenceType'] != last_data[column][a]['userPresenceType']:
-                                print(Default_language['presence_change'])
-                                await player_presence_processing(f_data[a],last_data[column][a])
-                                
-                except:
-                    last_data[column] = f_data.copy()
+            for a in range(len(f_data)):
+                if len(last_data[column]) != 0:
+                    if f_data[a]['userPresenceType'] != last_data[column][a]['userPresenceType']:
+                        print(Default_language['presence_change'])
+                        await player_presence_processing(f_data[a], last_data[column][a])
 
             last_data[column] = f_data.copy()
-
             column += 1
 
         
