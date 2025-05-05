@@ -128,6 +128,10 @@ _本文檔將引導您完成創建 Discord 機器人及使用其功能。_
 |`/setting`|更改設定。<br>若不指定，則顯示當前設定。|`/setting`<br>`/setting lang: zh_tw`<br>`/setting cookies: _\|WARNING:-DO-NOT...`|
 |`/sublist`|查看目前訂閱的玩家。|`/sublist`|
 
+|**指令名稱**|**功能描述**|**範例**|
+|-|-|-|
+|`/sub`|訂閱特定玩家。<br>若指定的玩家已在訂閱列表內，則刪除該玩家。|`/sub crooked`<br>`/sub Roblox Qarchue`|
+|`/sublist`|查看目前訂閱的玩家。|`/sublist`|
 ---
 
 
